@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculatrice</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="calculatrice.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <fieldset class="calculatrice" id="calculatrice">
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" name="ecran" id="ecran" readonly="readonly"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="touche7" id="touche7" value="7" class="touche"/></td>
+                    <td><input type="button" name="touche8" id="touche8" value="8" class="touche"/></td>
+                    <td><input type="button" name="touche9" id="touche9" value="9" class="touche"/></td>
+                    <td><input type="button" name="toucheDiv" id="toucheDiv" value="/" class="touche"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="touche4" id="touche4" value="4" class="touche"/></td>
+                    <td><input type="button" name="touche5" id="touche5" value="5" class="touche"/></td>
+                    <td><input type="button" name="touche6" id="touche6" value="6" class="touche"/></td>
+                    <td><input type="button" name="toucheMult" id="toucheMult" value="*" class="touche"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="touche1" id="touche1" value="1" class="touche"/></td>
+                    <td><input type="button" name="touche2" id="touche2" value="2" class="touche"/></td>
+                    <td><input type="button" name="touche3" id="touche3" value="3" class="touche"/></td>
+                    <td><input type="button" name="toucheMoins" id="toucheMoins" value="-" class="touche"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="touche0" id="touche0" value="0"/></td>
+                    <td><input type="button" name="toucheVirg" id="toucheClear" value="c"/></td>
+                    <td><input type="submit" name="toucheEgal" id="toucheEgal" value="="/></td>
+                    <td><input type="button" name="toucheplus" id="touchePlus" value="+"/></td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

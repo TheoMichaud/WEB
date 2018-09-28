@@ -1,0 +1,30 @@
+
+
+fieldset.inscription{
+    height: 485px;
+    width: 850px;
+    background-color: #DDDDDD; 
+}
+
+fieldset.civilite{
+    height: 280px;
+    width: 400px;
+    background-color: #FAEBD7; 
+}
+
+fieldset.savoir{
+    height: 280px;
+    width: 400px;
+    background-color: #CCFFCC;
+}
+
+fieldset.connexion{
+    height: 110px;
+    width: 835px;
+    background-color: #FFFACD;
+}
+
+td.boutons{
+    position: absolute;
+    margin-left : 200px;
+}

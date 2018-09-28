@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+       <form method="post" action="traitement.php">
+
+   <fieldset>
+
+       <legend>Formulaire d'inscription</legend> 
+       <table>   
+       <tr> 
+       <td>
+       <fieldset >
+           
+           
+           <legend>Civilités</legend>
+           
+           
+              <label>Nom</label>
+              <input type="text" name="nom" id="nom" /> <br/>
+              <label>Prénom</label>
+              <input type="text" name="prenom" id="prenom" /> <br/>
+              <label>Ville</label>
+              <select name="ville" id="ville">
+                    <option value="choix">Autre</option>
+                    <option value="Lemans">Le Mans</option> 
+              </select><br>
+              <label>Email</label>
+              <input type="email" name="courriel" id="courriel" /> <br>
+              <label>Site</label>
+              <input type="url" name="lienHttp" id="lienHttp" />  <br>
+              <a>Sexe :</a>
+                    <input type="radio" name="choix" id="choix1" value="1" checked="checked"/><a>Masculin</a><br>
+                    <input type="radio" name="choix" id="choix2" value="2"/><a>Feminin</a><br>
+                    <input type="radio" name="choix" id="choix3" value="3"/><a>Je ne souhaite pas le dire</a><br>
+              <a>Photo</a>
+              <input type="file" name="fichier" id="fichier" />
+           
+               </fieldset>
+       </td>
+       <td>
+           
+        <fieldset>
+           
+           <legend>Savoirs</legend>
+           
+           <label>Système d'exploitation</label>
+           <select name="listOS" id="listOS">
+                    <option value="SE">Séléctionnez un SE</option>
+                    <option value="WIN">WINDOWS</option> 
+                    <option value="LIN">LINUX</option> 
+                    <option value="MAC">MAC OS</option> </select>
+            <select name="Version" id="Vers">
+                <option value="Vers">Version</option> </select><br><br>
+                <label>Langage de programmation</label>
+            
+                
+           
+           
+           
+        </fieldset>
+           
+           
+           
+       </td>
+
+        
+       
+       
+       </tr>
+       </table>
+         
+           	
+           
+           
+      
+       
+       
+       
+       <fieldset>
+           
+           <legend>Paramètres de connexion</legend>
+           
+       </fieldset>
+
+   </fieldset>
+
+      </form>
+        
+        
+    </body>
+</html>
